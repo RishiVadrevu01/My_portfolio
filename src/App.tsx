@@ -48,7 +48,7 @@ export default function App() {
           <div className="hero-center">
             <div className="hero-accent-circle"></div>
             <img
-              src="/hero.png"
+              src={`${import.meta.env.BASE_URL}hero.png`}
               alt="Vadrevu Rishi"
               className="hero-photo"
             />
