@@ -1,6 +1,7 @@
 export default function App() {
+  const bgUrl = `${import.meta.env.BASE_URL}bg.png`;
   return (
-    <div>
+    <div style={{ backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.82), rgba(10, 10, 10, 0.82)), url('${bgUrl}')`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
 
       {/* ── TOP BAR ─────────────────────────────────────────────── */}
       <div className="topbar">
